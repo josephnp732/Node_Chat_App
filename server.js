@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 
 mongoose.Promise = Promise
 
-var dbURL = 'mongodb+srv://user:user@testcluster-qbutv.mongodb.net/test?retryWrites=true&w=majority'
+const dbURL = 'mongodb+srv://user:user@testcluster-qbutv.mongodb.net/test?retryWrites=true&w=majority'
 
 // MongoDB Model
 var Message = mongoose.model('message', {
